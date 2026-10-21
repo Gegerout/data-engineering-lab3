@@ -1,0 +1,11 @@
+# окружение, ключи и данные стенда не публикуются
+.venv/
+.env
+data/
+input/
+tmp/
+materials/
+__pycache__/
+.DS_Store
+# результаты теста отказа совпадают с results/mapreduce
+results/mapreduce_failtest/

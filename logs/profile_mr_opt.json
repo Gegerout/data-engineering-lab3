@@ -1,0 +1,40 @@
+{
+  "name": "mr_opt",
+  "cmd": [
+    ".venv/bin/python",
+    "scripts/mapreduce.py",
+    "--workers",
+    "8",
+    "--job",
+    "p_opt",
+    "--out",
+    "p_opt"
+  ],
+  "runs": [
+    {
+      "run": 1,
+      "wall_s": 5.28,
+      "peak_rss_mib": 718.4
+    },
+    {
+      "run": 2,
+      "wall_s": 5.7,
+      "peak_rss_mib": 713.9
+    },
+    {
+      "run": 3,
+      "wall_s": 5.7,
+      "peak_rss_mib": 669.8
+    },
+    {
+      "run": 4,
+      "wall_s": 6.06,
+      "peak_rss_mib": 725.5
+    },
+    {
+      "run": 5,
+      "wall_s": 5.54,
+      "peak_rss_mib": 735.3
+    }
+  ]
+}

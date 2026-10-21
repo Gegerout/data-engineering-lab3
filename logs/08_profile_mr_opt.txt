@@ -1,0 +1,7 @@
+$ .venv/bin/python scripts/profile.py mr_opt 5 -- .venv/bin/python scripts/mapreduce.py --workers 8 --job p_opt --out p_opt
+mr_opt run 1 time=5.28s peak_rss=718.4MiB
+mr_opt run 2 time=5.70s peak_rss=713.9MiB
+mr_opt run 3 time=5.70s peak_rss=669.8MiB
+mr_opt run 4 time=6.06s peak_rss=725.5MiB
+mr_opt run 5 time=5.54s peak_rss=735.3MiB
+mr_opt median time=5.70s peak_rss=718.4MiB

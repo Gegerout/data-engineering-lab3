@@ -1,0 +1,78 @@
+$ .venv/bin/python scripts/regions.py
+
+regions by vacancies with salary
+area=Москва vacancies=1752 with_salary=522
+area=Санкт-Петербург vacancies=592 with_salary=179
+area=Екатеринбург vacancies=137 with_salary=66
+area=Новосибирск vacancies=144 with_salary=46
+area=Ростов-на-Дону vacancies=76 with_salary=34
+area=Казань vacancies=105 with_salary=30
+
+table 1 key indicators
+area=Москва vacancies=1752 pct_of_variant=46 with_salary=522 q25=140000 median_salary=200000 q75=277550 junior_pct=32 remote_pct=42 with_skills=1250 avg_skills=5.4
+area=Санкт-Петербург vacancies=592 pct_of_variant=16 with_salary=179 q25=115000 median_salary=160000 q75=237450 junior_pct=42 remote_pct=34 with_skills=420 avg_skills=5.3
+area=Екатеринбург vacancies=137 pct_of_variant=4 with_salary=66 q25=102500 median_salary=180000 q75=300000 junior_pct=58 remote_pct=32 with_skills=111 avg_skills=4.4
+
+median salary by experience
+area=Екатеринбург experience=Нет опыта n=4 median_salary=60000
+area=Екатеринбург experience=От 1 года до 3 лет n=40 median_salary=155000
+area=Екатеринбург experience=От 3 до 6 лет n=22 median_salary=300000
+area=Москва experience=Нет опыта n=22 median_salary=85000
+area=Москва experience=От 1 года до 3 лет n=204 median_salary=150000
+area=Москва experience=От 3 до 6 лет n=273 median_salary=250000
+area=Москва experience=Более 6 лет n=23 median_salary=304500
+area=Санкт-Петербург experience=Нет опыта n=9 median_salary=55000
+area=Санкт-Петербург experience=От 1 года до 3 лет n=98 median_salary=150000
+area=Санкт-Петербург experience=От 3 до 6 лет n=61 median_salary=225000
+area=Санкт-Петербург experience=Более 6 лет n=11 median_salary=400000
+
+table 2 top 5 skills 3 pairs 3 triples
+area=Екатеринбург k=1 rank=1 combo=android vacancies=37 pct_with_skills=33 n_salary=18 median_salary=250000
+area=Екатеринбург k=1 rank=2 combo=git vacancies=36 pct_with_skills=32 n_salary=16 median_salary=125000
+area=Екатеринбург k=1 rank=3 combo=ios vacancies=33 pct_with_skills=30 n_salary=18 median_salary=250000
+area=Екатеринбург k=1 rank=4 combo=kotlin vacancies=32 pct_with_skills=29 n_salary=11 median_salary=250000
+area=Екатеринбург k=1 rank=5 combo=swift vacancies=30 pct_with_skills=27 n_salary=14 median_salary=275000
+area=Екатеринбург k=2 rank=1 combo=android + kotlin vacancies=25 pct_with_skills=23 n_salary=9 median_salary=250000
+area=Екатеринбург k=2 rank=2 combo=ios + swift vacancies=21 pct_with_skills=19 n_salary=9 median_salary=300000
+area=Екатеринбург k=2 rank=3 combo=java + kotlin vacancies=20 pct_with_skills=18 n_salary=4 median_salary=240000
+area=Екатеринбург k=3 rank=1 combo=android + java + kotlin vacancies=15 pct_with_skills=14 n_salary=3 median_salary=300000
+area=Екатеринбург k=3 rank=2 combo=android + android sdk + kotlin vacancies=14 pct_with_skills=13 n_salary=3 median_salary=300000
+area=Екатеринбург k=3 rank=3 combo=android sdk + java + kotlin vacancies=14 pct_with_skills=13 n_salary=4 median_salary=240000
+area=Москва k=1 rank=1 combo=kotlin vacancies=488 pct_with_skills=39 n_salary=144 median_salary=243600
+area=Москва k=1 rank=2 combo=android vacancies=486 pct_with_skills=39 n_salary=173 median_salary=200000
+area=Москва k=1 rank=3 combo=ios vacancies=377 pct_with_skills=30 n_salary=127 median_salary=180000
+area=Москва k=1 rank=4 combo=git vacancies=333 pct_with_skills=27 n_salary=148 median_salary=177110
+area=Москва k=1 rank=5 combo=swift vacancies=324 pct_with_skills=26 n_salary=86 median_salary=200000
+area=Москва k=2 rank=1 combo=android + kotlin vacancies=342 pct_with_skills=27 n_salary=109 median_salary=224460
+area=Москва k=2 rank=2 combo=ios + swift vacancies=247 pct_with_skills=20 n_salary=63 median_salary=190000
+area=Москва k=2 rank=3 combo=android sdk + kotlin vacancies=213 pct_with_skills=17 n_salary=63 median_salary=226200
+area=Москва k=3 rank=1 combo=android + android sdk + kotlin vacancies=159 pct_with_skills=13 n_salary=54 median_salary=225330
+area=Москва k=3 rank=2 combo=android + java + kotlin vacancies=146 pct_with_skills=12 n_salary=51 median_salary=230000
+area=Москва k=3 rank=3 combo=android sdk + java + kotlin vacancies=115 pct_with_skills=9 n_salary=28 median_salary=227230
+area=Санкт-Петербург k=1 rank=1 combo=android vacancies=179 pct_with_skills=43 n_salary=71 median_salary=160000
+area=Санкт-Петербург k=1 rank=2 combo=kotlin vacancies=172 pct_with_skills=41 n_salary=52 median_salary=186350
+area=Санкт-Петербург k=1 rank=3 combo=ios vacancies=148 pct_with_skills=35 n_salary=60 median_salary=160000
+area=Санкт-Петербург k=1 rank=4 combo=swift vacancies=113 pct_with_skills=27 n_salary=35 median_salary=190000
+area=Санкт-Петербург k=1 rank=5 combo=java vacancies=98 pct_with_skills=23 n_salary=33 median_salary=160000
+area=Санкт-Петербург k=2 rank=1 combo=android + kotlin vacancies=131 pct_with_skills=31 n_salary=44 median_salary=185000
+area=Санкт-Петербург k=2 rank=2 combo=ios + swift vacancies=91 pct_with_skills=22 n_salary=30 median_salary=195000
+area=Санкт-Петербург k=2 rank=3 combo=java + kotlin vacancies=88 pct_with_skills=21 n_salary=29 median_salary=160000
+area=Санкт-Петербург k=3 rank=1 combo=android + java + kotlin vacancies=69 pct_with_skills=16 n_salary=27 median_salary=160000
+area=Санкт-Петербург k=3 rank=2 combo=android + android sdk + kotlin vacancies=49 pct_with_skills=12 n_salary=20 median_salary=220000
+area=Санкт-Петербург k=3 rank=3 combo=android sdk + java + kotlin vacancies=35 pct_with_skills=8 n_salary=13 median_salary=150000
+
+skill share by region for top 12 skills
+skill=android Москва=39 Санкт-Петербург=43 Екатеринбург=33
+skill=kotlin Москва=39 Санкт-Петербург=41 Екатеринбург=29
+skill=ios Москва=30 Санкт-Петербург=35 Екатеринбург=30
+skill=swift Москва=26 Санкт-Петербург=27 Екатеринбург=27
+skill=git Москва=27 Санкт-Петербург=23 Екатеринбург=32
+skill=java Москва=20 Санкт-Петербург=23 Екатеринбург=18
+skill=android sdk Москва=20 Санкт-Петербург=19 Екатеринбург=17
+skill=flutter Москва=14 Санкт-Петербург=14 Екатеринбург=19
+skill=mvvm Москва=13 Санкт-Петербург=11 Екатеринбург=7
+skill=dart Москва=8 Санкт-Петербург=9 Екатеринбург=16
+skill=ооп Москва=7 Санкт-Петербург=12 Екатеринбург=17
+skill=react native Москва=8 Санкт-Петербург=7 Екатеринбург=10
+
+uploaded s3://hh-lake/results/analysis/regions_top.csv

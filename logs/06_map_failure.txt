@@ -1,0 +1,32 @@
+$ .venv/bin/python scripts/mapreduce.py --fail-map 5 --job failtest --out mapreduce_failtest
+0.05s input s3://hh-lake/raw/it_vacancies_2024.csv bytes=847619384 chunk_mib=32 splits=26 workers=8 reducers=4 combiner=True prefilter=True stream=True
+1.08s map task 5 attempt 1 failed exit=17
+1.08s map task 5 restarted attempt 2
+2.10s map task 5 attempt 2 succeeded
+4.48s map phase done bytes_read=854173009 map_input_records=229389 map_output_records=191397 spilled_records=138585 variant_records=3771 variant_records_with_skills=2794
+4.74s reduce phase done reduce_input_records=138585 reduce_output_records=74904
+4.75s k=1 distinct=1033 total=15255
+4.75s k=1 top1 android vacancies=1180
+4.75s k=1 top2 kotlin vacancies=1073
+4.75s k=1 top3 ios vacancies=905
+4.75s k=2 distinct=12308 total=48175
+4.75s k=2 top1 android + kotlin vacancies=784
+4.75s k=2 top2 ios + swift vacancies=561
+4.75s k=2 top3 android sdk + kotlin vacancies=514
+4.81s k=3 distinct=61563 total=127967
+4.81s k=3 top1 android + android sdk + kotlin vacancies=392
+4.81s k=3 top2 android + java + kotlin vacancies=364
+4.81s k=3 top3 android sdk + java + kotlin vacancies=289
+4.81s job finished
+$ ls tmp/mr/failtest | grep map-005
+map-005
+map-005.attempt-1
+$ cat tmp/mr/failtest/map-005.attempt-1/part-000.jsonl
+incomplete
+$ shasum -a 256 results/mapreduce/*.csv results/mapreduce_failtest/*.csv
+79c19a302b223337d86a0cc4d5de9b56c32893014d9dfc646f8b55d9d18ccb7a  results/mapreduce/skills_k1.csv
+2fbb0cb56c472f162f2c184e7045ead2ab16727b84a9cab53a8ca359b0840f71  results/mapreduce/skills_k2.csv
+a24bbfe405192ab0d24db05d8d02b5924747c376c716b14be0ef473ed533b30b  results/mapreduce/skills_k3.csv
+79c19a302b223337d86a0cc4d5de9b56c32893014d9dfc646f8b55d9d18ccb7a  results/mapreduce_failtest/skills_k1.csv
+2fbb0cb56c472f162f2c184e7045ead2ab16727b84a9cab53a8ca359b0840f71  results/mapreduce_failtest/skills_k2.csv
+a24bbfe405192ab0d24db05d8d02b5924747c376c716b14be0ef473ed533b30b  results/mapreduce_failtest/skills_k3.csv

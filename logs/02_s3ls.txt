@@ -1,0 +1,3 @@
+$ .venv/bin/python scripts/s3ls.py
+2026-10-21 11:06:30 847619384 s3://hh-lake/raw/it_vacancies_2024.csv
+total_bytes=847619384

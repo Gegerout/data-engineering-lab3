@@ -1,0 +1,7 @@
+$ .venv/bin/python scripts/upload.py
+created bucket hh-lake
+uploaded s3://hh-lake/raw/it_vacancies_2024.csv bytes=847619384 time=5.1s
+head content_length=847619384
+sha256_local=303db922b541e4440906f5a7e8be32fb55e8808f950ffddb8c272f1548212a65
+sha256_s3=303db922b541e4440906f5a7e8be32fb55e8808f950ffddb8c272f1548212a65
+match=True

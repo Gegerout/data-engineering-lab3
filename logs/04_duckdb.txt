@@ -1,0 +1,18 @@
+$ .venv/bin/python scripts/duckdb_skills.py --upload
+4.50s variant_vacancies=3771 with_skills=2794
+4.51s k=1 distinct=1033 total=15255
+4.51s k=1 top1 android vacancies=1180
+4.51s k=1 top2 kotlin vacancies=1073
+4.51s k=1 top3 ios vacancies=905
+4.53s uploaded s3://hh-lake/results/duckdb/skills_k1.csv
+4.54s k=2 distinct=12308 total=48175
+4.54s k=2 top1 android + kotlin vacancies=784
+4.54s k=2 top2 ios + swift vacancies=561
+4.54s k=2 top3 android sdk + kotlin vacancies=514
+4.57s uploaded s3://hh-lake/results/duckdb/skills_k2.csv
+4.60s k=3 distinct=61563 total=127967
+4.60s k=3 top1 android + android sdk + kotlin vacancies=392
+4.60s k=3 top2 android + java + kotlin vacancies=364
+4.60s k=3 top3 android sdk + java + kotlin vacancies=289
+4.66s uploaded s3://hh-lake/results/duckdb/skills_k3.csv
+4.66s done

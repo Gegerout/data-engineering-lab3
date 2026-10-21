@@ -1,0 +1,20 @@
+$ .venv/bin/python scripts/mapreduce.py --upload
+0.06s input s3://hh-lake/raw/it_vacancies_2024.csv bytes=847619384 chunk_mib=32 splits=26 workers=8 reducers=4 combiner=True prefilter=True stream=True
+4.73s map phase done bytes_read=854173009 map_input_records=229389 map_output_records=191397 spilled_records=138585 variant_records=3771 variant_records_with_skills=2794
+5.01s reduce phase done reduce_input_records=138585 reduce_output_records=74904
+5.01s k=1 distinct=1033 total=15255
+5.01s k=1 top1 android vacancies=1180
+5.01s k=1 top2 kotlin vacancies=1073
+5.01s k=1 top3 ios vacancies=905
+5.04s uploaded s3://hh-lake/results/mapreduce/skills_k1.csv bytes=20917
+5.05s k=2 distinct=12308 total=48175
+5.05s k=2 top1 android + kotlin vacancies=784
+5.05s k=2 top2 ios + swift vacancies=561
+5.05s k=2 top3 android sdk + kotlin vacancies=514
+5.12s uploaded s3://hh-lake/results/mapreduce/skills_k2.csv bytes=333496
+5.18s k=3 distinct=61563 total=127967
+5.18s k=3 top1 android + android sdk + kotlin vacancies=392
+5.18s k=3 top2 android + java + kotlin vacancies=364
+5.18s k=3 top3 android sdk + java + kotlin vacancies=289
+5.23s uploaded s3://hh-lake/results/mapreduce/skills_k3.csv bytes=2199908
+5.23s job finished

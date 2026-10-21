@@ -1,0 +1,9 @@
+$ .venv/bin/python scripts/s3ls.py
+2026-10-21 11:06:30 847619384 s3://hh-lake/raw/it_vacancies_2024.csv
+2026-10-21 11:06:52 19891 s3://hh-lake/results/duckdb/skills_k1.csv
+2026-10-21 11:06:52 321529 s3://hh-lake/results/duckdb/skills_k2.csv
+2026-10-21 11:06:52 2141120 s3://hh-lake/results/duckdb/skills_k3.csv
+2026-10-21 11:06:47 20917 s3://hh-lake/results/mapreduce/skills_k1.csv
+2026-10-21 11:06:47 333496 s3://hh-lake/results/mapreduce/skills_k2.csv
+2026-10-21 11:06:48 2199908 s3://hh-lake/results/mapreduce/skills_k3.csv
+total_bytes=852656245

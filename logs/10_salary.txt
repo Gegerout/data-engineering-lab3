@@ -1,0 +1,60 @@
+$ .venv/bin/python scripts/salary.py
+
+funnel
+variant=3771 any_salary=1380 rur=1255 rur_valid=1250 rur_valid_with_skills=995 median_salary=160000 junior_pct=56
+
+salary quartiles
+quartile=1 n=249 min_salary=20000 median_salary=80000 max_salary=100000 avg_skills=6.2 junior_pct=92 top_skills=git 114, android 106, ios 99, flutter 62, kotlin 62
+quartile=2 n=249 min_salary=100000 median_salary=130000 max_salary=160000 avg_skills=6.3 junior_pct=73 top_skills=android 128, git 104, ios 96, flutter 75, kotlin 71
+quartile=3 n=249 min_salary=160000 median_salary=190000 max_salary=250000 avg_skills=6.1 junior_pct=47 top_skills=android 118, git 103, ios 98, kotlin 86, flutter 61
+quartile=4 n=248 min_salary=250000 median_salary=291450 max_salary=525000 avg_skills=5.3 junior_pct=13 top_skills=kotlin 120, android 112, git 63, ios 62, android sdk 60
+
+k=2 raise median min_n=15
+combo=android + kotlin coroutines n=16 base=android base_n=464 base_med=158300 added=kotlin coroutines med=250000 uplift=91700 uplift_pct=58 junior_pct=19
+combo=coroutines + kotlin n=20 base=kotlin base_n=339 base_med=187920 added=coroutines med=270000 uplift=82080 uplift_pct=44 junior_pct=20
+combo=jetpack compose + kotlin n=21 base=kotlin base_n=339 base_med=187920 added=jetpack compose med=252300 uplift=64380 uplift_pct=34 junior_pct=43
+combo=dagger 2 + java n=18 base=java base_n=206 base_med=156125 added=dagger 2 med=220000 uplift=63875 uplift_pct=41 junior_pct=33
+combo=android + hilt n=16 base=android base_n=464 base_med=158300 added=hilt med=221850 uplift=63550 uplift_pct=40 junior_pct=13
+combo=mvi + mvvm n=17 base=mvvm base_n=116 base_med=150000 added=mvi med=213150 uplift=63150 uplift_pct=42 junior_pct=24
+combo=kotlin + kotlin coroutines n=19 base=kotlin base_n=339 base_med=187920 added=kotlin coroutines med=250000 uplift=62080 uplift_pct=33 junior_pct=21
+combo=kotlin + room n=21 base=kotlin base_n=339 base_med=187920 added=room med=250000 uplift=62080 uplift_pct=33 junior_pct=33
+combo=android + mvi n=19 base=android base_n=464 base_med=158300 added=mvi med=213150 uplift=54850 uplift_pct=35 junior_pct=16
+combo=ios + solid n=33 base=ios base_n=355 base_med=150000 added=solid med=200100 uplift=50100 uplift_pct=33 junior_pct=36
+
+k=2 lower median min_n=15
+combo=android studio + kotlin n=21 base=kotlin base_n=339 base_med=187920 added=android studio med=95700 uplift=-92220 uplift_pct=-49 junior_pct=71
+combo=flutter + kotlin n=18 base=kotlin base_n=339 base_med=187920 added=flutter med=110000 uplift=-77920 uplift_pct=-41 junior_pct=78
+combo=kotlin + mvp n=24 base=kotlin base_n=339 base_med=187920 added=mvp med=110000 uplift=-77920 uplift_pct=-41 junior_pct=79
+combo=ios + json api n=23 base=ios base_n=355 base_med=150000 added=json api med=80000 uplift=-70000 uplift_pct=-47 junior_pct=70
+combo=android studio + java n=17 base=java base_n=206 base_med=156125 added=android studio med=90000 uplift=-66125 uplift_pct=-42 junior_pct=76
+combo=flutter + swift n=15 base=swift base_n=207 base_med=165000 added=flutter med=100000 uplift=-65000 uplift_pct=-39 junior_pct=100
+combo=android + android studio n=17 base=android base_n=464 base_med=158300 added=android studio med=95700 uplift=-62600 uplift_pct=-40 junior_pct=65
+combo=android sdk + mvp n=18 base=android sdk base_n=210 base_med=170000 added=mvp med=110000 uplift=-60000 uplift_pct=-35 junior_pct=89
+combo=android sdk + rest api n=15 base=android sdk base_n=210 base_med=170000 added=rest api med=110000 uplift=-60000 uplift_pct=-35 junior_pct=80
+combo=kotlin + ооп n=50 base=kotlin base_n=339 base_med=187920 added=ооп med=130000 uplift=-57920 uplift_pct=-31 junior_pct=68
+uploaded s3://hh-lake/results/analysis/salary_uplift_k2.csv rows=200
+
+k=3 raise median min_n=15
+combo=dagger 2 + java + kotlin n=17 base=java + kotlin base_n=160 base_med=160000 added=dagger 2 med=260000 uplift=100000 uplift_pct=63 junior_pct=29
+combo=ios + solid + swift n=17 base=ios + swift base_n=160 base_med=160000 added=solid med=250000 uplift=90000 uplift_pct=56 junior_pct=29
+combo=android + mvi + mvvm n=15 base=android + mvvm base_n=61 base_med=150000 added=mvi med=217500 uplift=67500 uplift_pct=45 junior_pct=13
+combo=android + kotlin + kotlin coroutines n=16 base=android + kotlin base_n=260 base_med=187920 added=kotlin coroutines med=250000 uplift=62080 uplift_pct=33 junior_pct=19
+combo=android + dagger 2 + java n=18 base=android + java base_n=162 base_med=160000 added=dagger 2 med=220000 uplift=60000 uplift_pct=38 junior_pct=33
+combo=kotlin + mvi + mvvm n=16 base=kotlin + mvvm base_n=77 base_med=156600 added=mvi med=215325 uplift=58725 uplift_pct=38 junior_pct=19
+combo=ios + solid + ооп n=15 base=ios + ооп base_n=60 base_med=160000 added=solid med=215000 uplift=55000 uplift_pct=34 junior_pct=20
+combo=git + javascript + react n=19 base=git + javascript base_n=49 base_med=110000 added=react med=156600 uplift=46600 uplift_pct=42 junior_pct=63
+combo=android + dagger 2 + git n=15 base=android + git base_n=180 base_med=140000 added=dagger 2 med=180000 uplift=40000 uplift_pct=29 junior_pct=40
+combo=android + android sdk + hilt n=15 base=android + android sdk base_n=166 base_med=180000 added=hilt med=217500 uplift=37500 uplift_pct=21 junior_pct=13
+
+k=3 lower median min_n=15
+combo=android + android studio + kotlin n=15 base=android + kotlin base_n=260 base_med=187920 added=android studio med=90000 uplift=-97920 uplift_pct=-52 junior_pct=67
+combo=android + kotlin + mvp n=17 base=android + kotlin base_n=260 base_med=187920 added=mvp med=110000 uplift=-77920 uplift_pct=-41 junior_pct=88
+combo=android studio + java + kotlin n=16 base=java + kotlin base_n=160 base_med=160000 added=android studio med=87500 uplift=-72500 uplift_pct=-45 junior_pct=75
+combo=android + android sdk + mvp n=15 base=android + android sdk base_n=166 base_med=180000 added=mvp med=110000 uplift=-70000 uplift_pct=-39 junior_pct=87
+combo=android sdk + kotlin + mvp n=17 base=android sdk + kotlin base_n=166 base_med=180000 added=mvp med=110000 uplift=-70000 uplift_pct=-39 junior_pct=88
+combo=git + objective-c + swift n=20 base=git + swift base_n=87 base_med=156600 added=objective-c med=95000 uplift=-61600 uplift_pct=-39 junior_pct=90
+combo=dart + git + ооп n=15 base=git + ооп base_n=75 base_med=140000 added=dart med=80000 uplift=-60000 uplift_pct=-43 junior_pct=87
+combo=android + ios + java n=15 base=android + java base_n=162 base_med=160000 added=ios med=100050 uplift=-59950 uplift_pct=-37 junior_pct=67
+combo=git + ios + objective-c n=22 base=git + ios base_n=152 base_med=148950 added=objective-c med=95000 uplift=-53950 uplift_pct=-36 junior_pct=91
+combo=android + android sdk + ооп n=29 base=android + android sdk base_n=166 base_med=180000 added=ооп med=130000 uplift=-50000 uplift_pct=-28 junior_pct=69
+uploaded s3://hh-lake/results/analysis/salary_uplift_k3.csv rows=183

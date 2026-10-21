@@ -1,0 +1,43 @@
+{
+  "name": "mr_par",
+  "cmd": [
+    ".venv/bin/python",
+    "scripts/mapreduce.py",
+    "--workers",
+    "8",
+    "--no-combiner",
+    "--no-prefilter",
+    "--no-stream",
+    "--job",
+    "p_par",
+    "--out",
+    "p_par"
+  ],
+  "runs": [
+    {
+      "run": 1,
+      "wall_s": 6.53,
+      "peak_rss_mib": 1388.2
+    },
+    {
+      "run": 2,
+      "wall_s": 6.19,
+      "peak_rss_mib": 1383.5
+    },
+    {
+      "run": 3,
+      "wall_s": 5.85,
+      "peak_rss_mib": 1575.0
+    },
+    {
+      "run": 4,
+      "wall_s": 5.77,
+      "peak_rss_mib": 1494.2
+    },
+    {
+      "run": 5,
+      "wall_s": 5.84,
+      "peak_rss_mib": 1324.1
+    }
+  ]
+}

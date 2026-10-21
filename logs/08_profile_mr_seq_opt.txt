@@ -1,0 +1,7 @@
+$ .venv/bin/python scripts/profile.py mr_seq_opt 5 -- .venv/bin/python scripts/mapreduce.py --workers 1 --job p_seq --out p_seq
+mr_seq_opt run 1 time=11.36s peak_rss=162.3MiB
+mr_seq_opt run 2 time=11.74s peak_rss=164.1MiB
+mr_seq_opt run 3 time=12.31s peak_rss=163.4MiB
+mr_seq_opt run 4 time=11.72s peak_rss=163.2MiB
+mr_seq_opt run 5 time=12.20s peak_rss=160.9MiB
+mr_seq_opt median time=11.74s peak_rss=163.2MiB

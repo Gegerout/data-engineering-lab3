@@ -1,0 +1,201 @@
+combo,n,base,base_n,base_med,added,med,uplift,uplift_pct,junior_pct
+android + kotlin coroutines,16,android,464,158300.0,kotlin coroutines,250000.0,91700.0,58.0,19.0
+coroutines + kotlin,20,kotlin,339,187920.0,coroutines,270000.0,82080.0,44.0,20.0
+jetpack compose + kotlin,21,kotlin,339,187920.0,jetpack compose,252300.0,64380.0,34.0,43.0
+dagger 2 + java,18,java,206,156125.0,dagger 2,220000.0,63875.0,41.0,33.0
+android + hilt,16,android,464,158300.0,hilt,221850.0,63550.0,40.0,13.0
+mvi + mvvm,17,mvvm,116,150000.0,mvi,213150.0,63150.0,42.0,24.0
+kotlin + kotlin coroutines,19,kotlin,339,187920.0,kotlin coroutines,250000.0,62080.0,33.0,21.0
+kotlin + room,21,kotlin,339,187920.0,room,250000.0,62080.0,33.0,33.0
+android + mvi,19,android,464,158300.0,mvi,213150.0,54850.0,35.0,16.0
+ios + solid,33,ios,355,150000.0,solid,200100.0,50100.0,33.0,36.0
+git + swiftui,15,git,384,150000.0,swiftui,200000.0,50000.0,33.0,53.0
+solid + swift,21,swift,207,165000.0,solid,215000.0,50000.0,30.0,33.0
+javascript + rest,17,javascript,94,125000.0,rest,174000.0,49000.0,39.0,65.0
+android sdk + hilt,15,android sdk,210,170000.0,hilt,217500.0,47500.0,28.0,13.0
+solid + ооп,26,ооп,139,140000.0,solid,187000.0,47000.0,34.0,38.0
+android sdk + mvi,16,android sdk,210,170000.0,mvi,213150.0,43150.0,25.0,25.0
+android + dagger 2,36,android,464,158300.0,dagger 2,200000.0,41700.0,26.0,25.0
+hilt + kotlin,19,kotlin,339,187920.0,hilt,226200.0,38280.0,20.0,16.0
+redux + typescript,18,typescript,59,152250.0,redux,190000.0,37750.0,25.0,39.0
+cocoapods + swift,16,swift,207,165000.0,cocoapods,202500.0,37500.0,23.0,56.0
+git + scrum,15,git,384,150000.0,scrum,185000.0,35000.0,23.0,40.0
+dagger 2 + git,16,git,384,150000.0,dagger 2,180000.0,30000.0,20.0,44.0
+android + kotlin,260,android,464,158300.0,kotlin,187920.0,29620.0,19.0,45.0
+git + mysql,16,git,384,150000.0,mysql,177500.0,27500.0,18.0,50.0
+kotlin + mvi,20,kotlin,339,187920.0,mvi,213150.0,25230.0,13.0,20.0
+flutter + solid,19,flutter,216,135000.0,solid,160000.0,25000.0,19.0,53.0
+http + java,15,java,206,156125.0,http,180000.0,23875.0,15.0,73.0
+java + английский язык,21,java,206,156125.0,английский язык,180000.0,23875.0,15.0,71.0
+git + solid,40,git,384,150000.0,solid,172000.0,22000.0,15.0,43.0
+android + android sdk,166,android,464,158300.0,android sdk,180000.0,21700.0,14.0,47.0
+firebase + git,18,git,384,150000.0,firebase,170000.0,20000.0,13.0,72.0
+javascript + react,30,javascript,94,125000.0,react,143550.0,18550.0,15.0,60.0
+ios + swiftui,20,ios,355,150000.0,swiftui,167500.0,17500.0,12.0,55.0
+api + flutter,15,flutter,216,135000.0,api,150000.0,15000.0,11.0,80.0
+http + rest,16,rest,98,155000.0,http,170000.0,15000.0,10.0,56.0
+dagger 2 + kotlin,35,kotlin,339,187920.0,dagger 2,200000.0,12080.0,6.0,23.0
+android sdk + dagger 2,29,android sdk,210,170000.0,dagger 2,180000.0,10000.0,6.0,31.0
+atlassian jira + git,18,git,384,150000.0,atlassian jira,160000.0,10000.0,7.0,50.0
+atlassian jira + ios,19,ios,355,150000.0,atlassian jira,160000.0,10000.0,7.0,89.0
+design patterns + git,15,git,384,150000.0,design patterns,160000.0,10000.0,7.0,67.0
+ios + swift,160,ios,355,150000.0,swift,160000.0,10000.0,7.0,57.0
+ios + uikit,49,ios,355,150000.0,uikit,160000.0,10000.0,7.0,69.0
+ios + ооп,60,ios,355,150000.0,ооп,160000.0,10000.0,7.0,50.0
+node.js + react native,20,react native,111,150000.0,node.js,160000.0,10000.0,7.0,50.0
+react native + redux,27,react native,111,150000.0,redux,160000.0,10000.0,7.0,37.0
+react native + swift,16,swift,207,165000.0,react native,175000.0,10000.0,6.0,50.0
+swift + uikit,56,swift,207,165000.0,uikit,175000.0,10000.0,6.0,59.0
+ios + mvvm,30,ios,355,150000.0,mvvm,158300.0,8300.0,6.0,57.0
+swiftui + uikit,16,uikit,66,160000.0,swiftui,167500.0,7500.0,5.0,50.0
+css + git,17,git,384,150000.0,css,156600.0,6600.0,4.0,41.0
+git + postgresql,20,git,384,150000.0,postgresql,156600.0,6600.0,4.0,50.0
+git + swift,87,git,384,150000.0,swift,156600.0,6600.0,4.0,70.0
+react + react native,47,react native,111,150000.0,react,156600.0,6600.0,4.0,49.0
+react native + typescript,50,react native,111,150000.0,typescript,156600.0,6600.0,4.0,42.0
+api + git,20,git,384,150000.0,api,155000.0,5000.0,3.0,75.0
+api + ios,16,ios,355,150000.0,api,155000.0,5000.0,3.0,88.0
+bloc + flutter,16,flutter,216,135000.0,bloc,140000.0,5000.0,4.0,69.0
+flutter + ооп,27,flutter,216,135000.0,ооп,140000.0,5000.0,4.0,70.0
+java + swift,17,swift,207,165000.0,java,170000.0,5000.0,3.0,41.0
+rest + английский язык,15,rest,98,155000.0,английский язык,160000.0,5000.0,3.0,87.0
+react + typescript,33,typescript,59,152250.0,react,156600.0,4350.0,3.0,45.0
+android + atlassian jira,25,android,464,158300.0,atlassian jira,160000.0,1700.0,1.0,76.0
+android + java,162,android,464,158300.0,java,160000.0,1700.0,1.0,52.0
+android sdk + git,91,git,384,150000.0,android sdk,150000.0,0.0,0.0,53.0
+dart + flutter,149,flutter,216,135000.0,dart,135000.0,0.0,0.0,71.0
+firebase + flutter,19,flutter,216,135000.0,firebase,135000.0,0.0,0.0,89.0
+git + java,98,git,384,150000.0,java,150000.0,0.0,0.0,53.0
+git + retrofit,21,git,384,150000.0,retrofit,150000.0,0.0,0.0,48.0
+git + английский язык,27,git,384,150000.0,английский язык,150000.0,0.0,0.0,59.0
+ios + scrum,18,ios,355,150000.0,scrum,150000.0,0.0,0.0,39.0
+ios + typescript,23,ios,355,150000.0,typescript,150000.0,0.0,0.0,43.0
+ios + английский язык,21,ios,355,150000.0,английский язык,150000.0,0.0,0.0,48.0
+javascript + typescript,31,javascript,94,125000.0,typescript,125000.0,0.0,0.0,65.0
+mvvm + retrofit,22,mvvm,116,150000.0,retrofit,150000.0,0.0,0.0,41.0
+mvvm + solid,21,mvvm,116,150000.0,solid,150000.0,0.0,0.0,29.0
+git + ios,152,ios,355,150000.0,git,148950.0,-1050.0,-1.0,68.0
+java + sql,18,java,206,156125.0,sql,155000.0,-1125.0,-1.0,67.0
+android + javascript,36,android,464,158300.0,javascript,156600.0,-1700.0,-1.0,67.0
+android + typescript,29,android,464,158300.0,typescript,156600.0,-1700.0,-1.0,34.0
+objective-c + ооп,18,ооп,139,140000.0,objective-c,137500.0,-2500.0,-2.0,56.0
+android + http,16,android,464,158300.0,http,155000.0,-3300.0,-2.0,69.0
+android + английский язык,28,android,464,158300.0,английский язык,155000.0,-3300.0,-2.0,68.0
+android + разработка по,24,android,464,158300.0,разработка по,155000.0,-3300.0,-2.0,75.0
+git + uikit,24,git,384,150000.0,uikit,145250.0,-4750.0,-3.0,71.0
+flutter + rest api,29,flutter,216,135000.0,rest api,130000.0,-5000.0,-4.0,66.0
+git + typescript,34,git,384,150000.0,typescript,145000.0,-5000.0,-3.0,50.0
+swift + swiftui,23,swift,207,165000.0,swiftui,160000.0,-5000.0,-3.0,52.0
+swift + ооп,54,swift,207,165000.0,ооп,160000.0,-5000.0,-3.0,48.0
+java + rest,34,java,206,156125.0,rest,150000.0,-6125.0,-4.0,76.0
+java + rest api,15,java,206,156125.0,rest api,150000.0,-6125.0,-4.0,73.0
+java + retrofit,25,java,206,156125.0,retrofit,150000.0,-6125.0,-4.0,44.0
+java + ооп,38,java,206,156125.0,ооп,150000.0,-6125.0,-4.0,63.0
+css + javascript,22,javascript,94,125000.0,css,118537.5,-6462.5,-5.0,50.0
+ios + objective-c,44,ios,355,150000.0,objective-c,142500.0,-7500.0,-5.0,66.0
+android sdk + kotlin,166,kotlin,339,187920.0,android sdk,180000.0,-7920.0,-4.0,48.0
+gradle + kotlin,17,kotlin,339,187920.0,gradle,180000.0,-7920.0,-4.0,53.0
+kotlin + rxjava,41,kotlin,339,187920.0,rxjava,180000.0,-7920.0,-4.0,24.0
+android + mvvm,61,android,464,158300.0,mvvm,150000.0,-8300.0,-5.0,51.0
+android + realm,17,android,464,158300.0,realm,150000.0,-8300.0,-5.0,65.0
+android + rest,60,android,464,158300.0,rest,150000.0,-8300.0,-5.0,77.0
+android + retrofit,34,android,464,158300.0,retrofit,150000.0,-8300.0,-5.0,50.0
+android + rxjava,37,android,464,158300.0,rxjava,150000.0,-8300.0,-5.0,27.0
+android + scrum,15,android,464,158300.0,scrum,150000.0,-8300.0,-5.0,27.0
+android sdk + английский язык,18,android sdk,210,170000.0,английский язык,160000.0,-10000.0,-6.0,89.0
+dart + git,64,git,384,150000.0,dart,140000.0,-10000.0,-7.0,63.0
+docker + git,16,git,384,150000.0,docker,140000.0,-10000.0,-7.0,56.0
+git + mvvm,43,git,384,150000.0,mvvm,140000.0,-10000.0,-7.0,49.0
+git + ооп,75,git,384,150000.0,ооп,140000.0,-10000.0,-7.0,77.0
+android + swift,22,android,464,158300.0,swift,146450.0,-11850.0,-7.0,55.0
+flutter + git,94,git,384,150000.0,flutter,137500.0,-12500.0,-8.0,64.0
+android + react,24,android,464,158300.0,react,145000.0,-13300.0,-8.0,46.0
+android + postgresql,16,android,464,158300.0,postgresql,143300.0,-15000.0,-9.0,56.0
+android sdk + rest,30,android sdk,210,170000.0,rest,155000.0,-15000.0,-9.0,67.0
+dart + ios,73,ios,355,150000.0,dart,135000.0,-15000.0,-10.0,70.0
+git + sql,17,git,384,150000.0,sql,135000.0,-15000.0,-10.0,65.0
+ios + react,22,ios,355,150000.0,react,135000.0,-15000.0,-10.0,55.0
+ios + rest api,33,ios,355,150000.0,rest api,135000.0,-15000.0,-10.0,67.0
+objective-c + swift,43,swift,207,165000.0,objective-c,150000.0,-15000.0,-9.0,60.0
+kotlin + swift,26,kotlin,339,187920.0,swift,170000.0,-17920.0,-10.0,62.0
+android + git,180,android,464,158300.0,git,140000.0,-18300.0,-12.0,58.0
+android + solid,27,android,464,158300.0,solid,140000.0,-18300.0,-12.0,48.0
+flutter + ios,103,ios,355,150000.0,flutter,130500.0,-19500.0,-13.0,76.0
+git + json,15,git,384,150000.0,json,130500.0,-19500.0,-13.0,100.0
+git + react native,53,git,384,150000.0,react native,130500.0,-19500.0,-13.0,53.0
+git + rest,54,git,384,150000.0,rest,130500.0,-19500.0,-13.0,72.0
+git + rxjava,16,git,384,150000.0,rxjava,130500.0,-19500.0,-13.0,38.0
+javascript + react native,50,react native,111,150000.0,javascript,130500.0,-19500.0,-13.0,52.0
+android sdk + java,112,android sdk,210,170000.0,java,150000.0,-20000.0,-12.0,55.0
+android sdk + mvvm,51,android sdk,210,170000.0,mvvm,150000.0,-20000.0,-12.0,45.0
+android sdk + rxjava,29,android sdk,210,170000.0,rxjava,150000.0,-20000.0,-12.0,24.0
+git + react,37,git,384,150000.0,react,130000.0,-20000.0,-13.0,62.0
+git + rest api,54,git,384,150000.0,rest api,130000.0,-20000.0,-13.0,74.0
+html + javascript,20,javascript,94,125000.0,html,104700.0,-20300.0,-16.0,60.0
+mvvm + swift,24,swift,207,165000.0,mvvm,143115.0,-21885.0,-13.0,75.0
+android sdk + sql,19,android sdk,210,170000.0,sql,147900.0,-22100.0,-13.0,74.0
+ios + xcode,36,ios,355,150000.0,xcode,127750.0,-22250.0,-15.0,72.0
+android + dart,72,android,464,158300.0,dart,135000.0,-23300.0,-15.0,69.0
+android + sql,19,android,464,158300.0,sql,135000.0,-23300.0,-15.0,74.0
+dart + rest api,23,dart,151,135000.0,rest api,110000.0,-25000.0,-19.0,65.0
+git + xcode,23,git,384,150000.0,xcode,125000.0,-25000.0,-17.0,70.0
+ios + rest,38,ios,355,150000.0,rest,125000.0,-25000.0,-17.0,79.0
+mvvm + rxjava,15,mvvm,116,150000.0,rxjava,125000.0,-25000.0,-17.0,47.0
+mvvm + uikit,17,mvvm,116,150000.0,uikit,125000.0,-25000.0,-17.0,76.0
+android + rest api,38,android,464,158300.0,rest api,132750.0,-25550.0,-16.0,68.0
+java + rxjava,31,java,206,156125.0,rxjava,130500.0,-25625.0,-16.0,32.0
+java + solid,18,java,206,156125.0,solid,130500.0,-25625.0,-16.0,28.0
+java + javascript,17,java,206,156125.0,javascript,130000.0,-26125.0,-17.0,76.0
+java + kotlin,160,kotlin,339,187920.0,java,160000.0,-27920.0,-15.0,49.0
+kotlin + retrofit,41,kotlin,339,187920.0,retrofit,160000.0,-27920.0,-15.0,49.0
+kotlin + английский язык,15,kotlin,339,187920.0,английский язык,160000.0,-27920.0,-15.0,73.0
+android + flutter,102,android,464,158300.0,flutter,130250.0,-28050.0,-18.0,75.0
+android + ios,161,android,464,158300.0,ios,130000.0,-28300.0,-18.0,66.0
+android + react native,45,android,464,158300.0,react native,130000.0,-28300.0,-18.0,53.0
+android + ооп,58,android,464,158300.0,ооп,130000.0,-28300.0,-18.0,66.0
+ios + kotlin,24,kotlin,339,187920.0,ios,158300.0,-29620.0,-16.0,63.0
+json api + rest api,17,rest api,76,130000.0,json api,100050.0,-29950.0,-23.0,82.0
+android sdk + android studio,15,android sdk,210,170000.0,android studio,140000.0,-30000.0,-18.0,60.0
+ios + web,16,ios,355,150000.0,web,120000.0,-30000.0,-20.0,94.0
+kotlin + mvvm,77,kotlin,339,187920.0,mvvm,156600.0,-31320.0,-17.0,47.0
+dart + ооп,22,ооп,139,140000.0,dart,108400.0,-31600.0,-23.0,68.0
+flutter + json api,17,flutter,216,135000.0,json api,100000.0,-35000.0,-26.0,65.0
+ios + java,23,ios,355,150000.0,java,115000.0,-35000.0,-23.0,70.0
+uikit + xcode,15,uikit,66,160000.0,xcode,125000.0,-35000.0,-22.0,67.0
+java + mvvm,31,java,206,156125.0,mvvm,120000.0,-36125.0,-23.0,55.0
+flutter + rest,19,flutter,216,135000.0,rest,97500.0,-37500.0,-28.0,84.0
+rest + ооп,20,ооп,139,140000.0,rest,102500.0,-37500.0,-27.0,90.0
+git + kotlin,129,kotlin,339,187920.0,git,150000.0,-37920.0,-20.0,57.0
+kotlin + realm,17,kotlin,339,187920.0,realm,150000.0,-37920.0,-20.0,71.0
+kotlin + rest,33,kotlin,339,187920.0,rest,150000.0,-37920.0,-20.0,61.0
+android + web,16,android,464,158300.0,web,120000.0,-38300.0,-24.0,94.0
+android sdk + retrofit,27,android sdk,210,170000.0,retrofit,130500.0,-39500.0,-23.0,56.0
+android sdk + ооп,39,android sdk,210,170000.0,ооп,130000.0,-40000.0,-24.0,74.0
+git + javascript,49,git,384,150000.0,javascript,110000.0,-40000.0,-27.0,65.0
+git + json api,24,git,384,150000.0,json api,110000.0,-40000.0,-27.0,67.0
+ios + mvc,23,ios,355,150000.0,mvc,110000.0,-40000.0,-27.0,83.0
+mvp + mvvm,22,mvvm,116,150000.0,mvp,110000.0,-40000.0,-27.0,68.0
+mvvm + ооп,21,mvvm,116,150000.0,ооп,110000.0,-40000.0,-27.0,90.0
+swift + xcode,34,swift,207,165000.0,xcode,125000.0,-40000.0,-24.0,68.0
+kotlin + rest api,20,kotlin,339,187920.0,rest api,145000.0,-42920.0,-23.0,70.0
+git + mvc,22,git,384,150000.0,mvc,105000.0,-45000.0,-30.0,82.0
+android + json api,25,android,464,158300.0,json api,110000.0,-48300.0,-31.0,68.0
+android + mvp,17,android,464,158300.0,mvp,110000.0,-48300.0,-31.0,88.0
+ios + javascript,21,ios,355,150000.0,javascript,100050.0,-49950.0,-33.0,81.0
+ios + react native,43,ios,355,150000.0,react native,100050.0,-49950.0,-33.0,63.0
+android sdk + ios,19,ios,355,150000.0,android sdk,100000.0,-50000.0,-33.0,63.0
+git + html,21,git,384,150000.0,html,100000.0,-50000.0,-33.0,67.0
+git + objective-c,23,git,384,150000.0,objective-c,95000.0,-55000.0,-37.0,91.0
+mvc + swift,15,swift,207,165000.0,mvc,110000.0,-55000.0,-33.0,100.0
+flutter + java,15,java,206,156125.0,flutter,100000.0,-56125.0,-36.0,87.0
+kotlin + solid,24,kotlin,339,187920.0,solid,130500.0,-57420.0,-31.0,42.0
+kotlin + ооп,50,kotlin,339,187920.0,ооп,130000.0,-57920.0,-31.0,68.0
+android sdk + mvp,18,android sdk,210,170000.0,mvp,110000.0,-60000.0,-35.0,89.0
+android sdk + rest api,15,android sdk,210,170000.0,rest api,110000.0,-60000.0,-35.0,80.0
+android + android studio,17,android,464,158300.0,android studio,95700.0,-62600.0,-40.0,65.0
+flutter + swift,15,swift,207,165000.0,flutter,100000.0,-65000.0,-39.0,100.0
+android studio + java,17,java,206,156125.0,android studio,90000.0,-66125.0,-42.0,76.0
+ios + json api,23,ios,355,150000.0,json api,80000.0,-70000.0,-47.0,70.0
+flutter + kotlin,18,kotlin,339,187920.0,flutter,110000.0,-77920.0,-41.0,78.0
+kotlin + mvp,24,kotlin,339,187920.0,mvp,110000.0,-77920.0,-41.0,79.0
+android studio + kotlin,21,kotlin,339,187920.0,android studio,95700.0,-92220.0,-49.0,71.0

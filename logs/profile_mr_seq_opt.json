@@ -1,0 +1,40 @@
+{
+  "name": "mr_seq_opt",
+  "cmd": [
+    ".venv/bin/python",
+    "scripts/mapreduce.py",
+    "--workers",
+    "1",
+    "--job",
+    "p_seq",
+    "--out",
+    "p_seq"
+  ],
+  "runs": [
+    {
+      "run": 1,
+      "wall_s": 11.36,
+      "peak_rss_mib": 162.3
+    },
+    {
+      "run": 2,
+      "wall_s": 11.74,
+      "peak_rss_mib": 164.1
+    },
+    {
+      "run": 3,
+      "wall_s": 12.31,
+      "peak_rss_mib": 163.4
+    },
+    {
+      "run": 4,
+      "wall_s": 11.72,
+      "peak_rss_mib": 163.2
+    },
+    {
+      "run": 5,
+      "wall_s": 12.2,
+      "peak_rss_mib": 160.9
+    }
+  ]
+}

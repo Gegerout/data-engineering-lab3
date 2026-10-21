@@ -1,0 +1,7 @@
+$ .venv/bin/python scripts/profile.py duckdb 5 -- .venv/bin/python scripts/duckdb_skills.py
+duckdb run 1 time=4.82s peak_rss=440.3MiB
+duckdb run 2 time=4.70s peak_rss=417.0MiB
+duckdb run 3 time=4.61s peak_rss=418.8MiB
+duckdb run 4 time=4.56s peak_rss=477.1MiB
+duckdb run 5 time=4.49s peak_rss=444.9MiB
+duckdb median time=4.61s peak_rss=440.3MiB

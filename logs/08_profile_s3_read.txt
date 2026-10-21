@@ -1,0 +1,7 @@
+$ .venv/bin/python scripts/profile.py s3_read 5 -- .venv/bin/python scripts/bench_read.py --workers 8
+s3_read run 1 time=3.78s peak_rss=113.6MiB
+s3_read run 2 time=3.72s peak_rss=111.9MiB
+s3_read run 3 time=3.81s peak_rss=116.3MiB
+s3_read run 4 time=3.67s peak_rss=113.4MiB
+s3_read run 5 time=3.80s peak_rss=117.9MiB
+s3_read median time=3.78s peak_rss=113.6MiB

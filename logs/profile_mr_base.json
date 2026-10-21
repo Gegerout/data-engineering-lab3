@@ -1,0 +1,43 @@
+{
+  "name": "mr_base",
+  "cmd": [
+    ".venv/bin/python",
+    "scripts/mapreduce.py",
+    "--workers",
+    "1",
+    "--no-combiner",
+    "--no-prefilter",
+    "--no-stream",
+    "--job",
+    "p_base",
+    "--out",
+    "p_base"
+  ],
+  "runs": [
+    {
+      "run": 1,
+      "wall_s": 14.58,
+      "peak_rss_mib": 279.3
+    },
+    {
+      "run": 2,
+      "wall_s": 15.38,
+      "peak_rss_mib": 277.7
+    },
+    {
+      "run": 3,
+      "wall_s": 15.47,
+      "peak_rss_mib": 259.3
+    },
+    {
+      "run": 4,
+      "wall_s": 14.46,
+      "peak_rss_mib": 278.0
+    },
+    {
+      "run": 5,
+      "wall_s": 14.56,
+      "peak_rss_mib": 280.2
+    }
+  ]
+}

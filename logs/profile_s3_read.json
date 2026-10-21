@@ -1,0 +1,36 @@
+{
+  "name": "s3_read",
+  "cmd": [
+    ".venv/bin/python",
+    "scripts/bench_read.py",
+    "--workers",
+    "8"
+  ],
+  "runs": [
+    {
+      "run": 1,
+      "wall_s": 3.78,
+      "peak_rss_mib": 113.6
+    },
+    {
+      "run": 2,
+      "wall_s": 3.72,
+      "peak_rss_mib": 111.9
+    },
+    {
+      "run": 3,
+      "wall_s": 3.81,
+      "peak_rss_mib": 116.3
+    },
+    {
+      "run": 4,
+      "wall_s": 3.67,
+      "peak_rss_mib": 113.4
+    },
+    {
+      "run": 5,
+      "wall_s": 3.8,
+      "peak_rss_mib": 117.9
+    }
+  ]
+}

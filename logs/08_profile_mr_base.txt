@@ -1,0 +1,7 @@
+$ .venv/bin/python scripts/profile.py mr_base 5 -- .venv/bin/python scripts/mapreduce.py --workers 1 --no-combiner --no-prefilter --no-stream --job p_base --out p_base
+mr_base run 1 time=14.58s peak_rss=279.3MiB
+mr_base run 2 time=15.38s peak_rss=277.7MiB
+mr_base run 3 time=15.47s peak_rss=259.3MiB
+mr_base run 4 time=14.46s peak_rss=278.0MiB
+mr_base run 5 time=14.56s peak_rss=280.2MiB
+mr_base median time=14.58s peak_rss=278.0MiB

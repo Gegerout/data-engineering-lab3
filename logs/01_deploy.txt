@@ -1,0 +1,13 @@
+$ docker compose --profile home up -d rustfs-home
+ Network hh-lake_default  Creating
+ Network hh-lake_default  Created
+ Container hh-lake-rustfs  Creating
+ Container hh-lake-rustfs  Created
+ Container hh-lake-rustfs  Starting
+ Container hh-lake-rustfs  Started
+$ docker compose --profile home ps --format "{{.Name}} {{.Image}} {{.Status}} {{.Ports}}"
+hh-lake-rustfs rustfs/rustfs:1.0.0 Up 5 seconds 127.0.0.1:9010->9000/tcp, 127.0.0.1:9011->9001/tcp
+$ docker exec hh-lake-rustfs rustfs --version | head -1
+rustfs 1.0.0
+$ curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:9010/health
+200

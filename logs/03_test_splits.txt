@@ -1,0 +1,9 @@
+$ .venv/bin/python scripts/test_splits.py
+file bytes=847619384 lines=229389
+chunk=1000003 mode=whole splits=848 lines=229389 each_line_once=True
+chunk=1000003 mode=stream splits=848 lines=229389 each_line_once=True
+chunk=7340043 mode=whole splits=116 lines=229389 each_line_once=True
+chunk=7340043 mode=stream splits=116 lines=229389 each_line_once=True
+chunk=33554432 mode=whole splits=26 lines=229389 each_line_once=True
+chunk=33554432 mode=stream splits=26 lines=229389 each_line_once=True
+prefilter lines_with_role=87803 lines_total=229389

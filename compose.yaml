@@ -1,0 +1,20 @@
+# Профиль home из стенда ДЗ 2, один процесс RustFS и четыре папки-диска.
+# Диски лежат в локальной папке data, ключи доступа в файле .env.
+name: hh-lake
+services:
+  rustfs-home:
+    image: rustfs/rustfs:1.0.0
+    container_name: hh-lake-rustfs
+    profiles: ["home"]
+    restart: "no"
+    env_file: .env
+    environment:
+      RUSTFS_VOLUMES: /data/vol{1...4}
+      RUSTFS_UNSAFE_BYPASS_DISK_CHECK: "true"
+      RUSTFS_STORAGE_CLASS_STANDARD: "EC:2"
+      RUSTFS_CONSOLE_ENABLE: "true"
+    ports:
+      - "127.0.0.1:9010:9000"
+      - "127.0.0.1:9011:9001"
+    volumes:
+      - ./data:/data

@@ -1,0 +1,33 @@
+$ .venv/bin/python scripts/combinatorics.py
+skills_per_vacancy vacancies=2794 min=1 median=5.0 mean=5.46 max=28
+k=1 combinations=15255
+k=2 combinations=48175
+k=3 combinations=127967
+n=1 vacancies=101 pairs_each=0 triples_each=0 triples=0 triples_share=0.0
+n=2 vacancies=280 pairs_each=1 triples_each=0 triples=0 triples_share=0.0
+n=3 vacancies=381 pairs_each=3 triples_each=1 triples=381 triples_share=0.3
+n=4 vacancies=472 pairs_each=6 triples_each=4 triples=1888 triples_share=1.5
+n=5 vacancies=493 pairs_each=10 triples_each=10 triples=4930 triples_share=3.9
+n=6 vacancies=288 pairs_each=15 triples_each=20 triples=5760 triples_share=4.5
+n=7 vacancies=210 pairs_each=21 triples_each=35 triples=7350 triples_share=5.7
+n=8 vacancies=183 pairs_each=28 triples_each=56 triples=10248 triples_share=8.0
+n=9 vacancies=119 pairs_each=36 triples_each=84 triples=9996 triples_share=7.8
+n=10 vacancies=75 pairs_each=45 triples_each=120 triples=9000 triples_share=7.0
+n=11 vacancies=55 pairs_each=55 triples_each=165 triples=9075 triples_share=7.1
+n=12 vacancies=42 pairs_each=66 triples_each=220 triples=9240 triples_share=7.2
+n=13 vacancies=17 pairs_each=78 triples_each=286 triples=4862 triples_share=3.8
+n=14 vacancies=26 pairs_each=91 triples_each=364 triples=9464 triples_share=7.4
+n=15 vacancies=14 pairs_each=105 triples_each=455 triples=6370 triples_share=5.0
+n=16 vacancies=10 pairs_each=120 triples_each=560 triples=5600 triples_share=4.4
+n=17 vacancies=11 pairs_each=136 triples_each=680 triples=7480 triples_share=5.8
+n=18 vacancies=6 pairs_each=153 triples_each=816 triples=4896 triples_share=3.8
+n=20 vacancies=2 pairs_each=190 triples_each=1140 triples=2280 triples_share=1.8
+n=21 vacancies=3 pairs_each=210 triples_each=1330 triples=3990 triples_share=3.1
+n=22 vacancies=2 pairs_each=231 triples_each=1540 triples=3080 triples_share=2.4
+n=26 vacancies=1 pairs_each=325 triples_each=2600 triples=2600 triples_share=2.0
+n=27 vacancies=1 pairs_each=351 triples_each=2925 triples=2925 triples_share=2.3
+n=28 vacancies=2 pairs_each=378 triples_each=3276 triples=6552 triples_share=5.1
+skills_10_or_more vacancies_share=9.6 triples_share=68.3
+k=1 distinct=1033 seen_once=479 seen_once_share=46.4
+k=2 distinct=12308 seen_once=6747 seen_once_share=54.8
+k=3 distinct=61563 seen_once=37524 seen_once_share=61.0

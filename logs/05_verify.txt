@@ -1,0 +1,11 @@
+$ .venv/bin/python scripts/verify.py
+k=1 mapreduce rows=1033 sum=15255 sha=f4e6f2d80cee9847
+k=1 duckdb rows=1033 sum=15255 sha=f4e6f2d80cee9847
+k=1 only_mapreduce=0 only_duckdb=0 count_diff=0 equal=True
+k=2 mapreduce rows=12308 sum=48175 sha=1796d4493b32b06a
+k=2 duckdb rows=12308 sum=48175 sha=1796d4493b32b06a
+k=2 only_mapreduce=0 only_duckdb=0 count_diff=0 equal=True
+k=3 mapreduce rows=61563 sum=127967 sha=9643c72c687f21b9
+k=3 duckdb rows=61563 sum=127967 sha=9643c72c687f21b9
+k=3 only_mapreduce=0 only_duckdb=0 count_diff=0 equal=True
+all_equal=True
